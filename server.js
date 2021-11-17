@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 //route
-app.use('/api/v1/',userRoute);
+app.use('/api/v1',userRoute);
 
 
 //middleware
